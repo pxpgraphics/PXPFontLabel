@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD911B7B197DA55C00943866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7A197DA55C00943866 /* Foundation.framework */; };
+		AD911B7D197DA55C00943866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7C197DA55C00943866 /* CoreGraphics.framework */; };
+		AD911B7F197DA55C00943866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7E197DA55C00943866 /* UIKit.framework */; };
+		AD911B85197DA55C00943866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD911B83197DA55C00943866 /* InfoPlist.strings */; };
+		AD911B87197DA55C00943866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911B86197DA55C00943866 /* main.m */; };
+		AD911B8B197DA55C00943866 /* PXPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911B8A197DA55C00943866 /* PXPAppDelegate.m */; };
+		AD911B8D197DA55C00943866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD911B8C197DA55C00943866 /* Images.xcassets */; };
+		AD911B94197DA55C00943866 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B93197DA55C00943866 /* XCTest.framework */; };
+		AD911B95197DA55C00943866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7A197DA55C00943866 /* Foundation.framework */; };
+		AD911B96197DA55C00943866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7E197DA55C00943866 /* UIKit.framework */; };
+		AD911B9E197DA55C00943866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD911B9C197DA55C00943866 /* InfoPlist.strings */; };
+		AD911BA0197DA55C00943866 /* PXPFontLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911B9F197DA55C00943866 /* PXPFontLabelDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD911B97197DA55C00943866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD911B6F197DA55C00943866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD911B76197DA55C00943866;
+			remoteInfo = PXPFontLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD911B77197DA55C00943866 /* PXPFontLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXPFontLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD911B7A197DA55C00943866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD911B7C197DA55C00943866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD911B7E197DA55C00943866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD911B82197DA55C00943866 /* PXPFontLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPFontLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		AD911B84197DA55C00943866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD911B86197DA55C00943866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD911B88197DA55C00943866 /* PXPFontLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXPFontLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AD911B89197DA55C00943866 /* PXPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXPAppDelegate.h; sourceTree = "<group>"; };
+		AD911B8A197DA55C00943866 /* PXPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXPAppDelegate.m; sourceTree = "<group>"; };
+		AD911B8C197DA55C00943866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD911B92197DA55C00943866 /* PXPFontLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPFontLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD911B93197DA55C00943866 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD911B9B197DA55C00943866 /* PXPFontLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPFontLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AD911B9D197DA55C00943866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD911B9F197DA55C00943866 /* PXPFontLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXPFontLabelDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD911B74197DA55C00943866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911B7D197DA55C00943866 /* CoreGraphics.framework in Frameworks */,
+				AD911B7F197DA55C00943866 /* UIKit.framework in Frameworks */,
+				AD911B7B197DA55C00943866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD911B8F197DA55C00943866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911B94197DA55C00943866 /* XCTest.framework in Frameworks */,
+				AD911B96197DA55C00943866 /* UIKit.framework in Frameworks */,
+				AD911B95197DA55C00943866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD911B6E197DA55C00943866 = {
+			isa = PBXGroup;
+			children = (
+				AD911B80197DA55C00943866 /* PXPFontLabelDemo */,
+				AD911B99197DA55C00943866 /* PXPFontLabelDemoTests */,
+				AD911B79197DA55C00943866 /* Frameworks */,
+				AD911B78197DA55C00943866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD911B78197DA55C00943866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B77197DA55C00943866 /* PXPFontLabelDemo.app */,
+				AD911B92197DA55C00943866 /* PXPFontLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD911B79197DA55C00943866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B7A197DA55C00943866 /* Foundation.framework */,
+				AD911B7C197DA55C00943866 /* CoreGraphics.framework */,
+				AD911B7E197DA55C00943866 /* UIKit.framework */,
+				AD911B93197DA55C00943866 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD911B80197DA55C00943866 /* PXPFontLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B89197DA55C00943866 /* PXPAppDelegate.h */,
+				AD911B8A197DA55C00943866 /* PXPAppDelegate.m */,
+				AD911B8C197DA55C00943866 /* Images.xcassets */,
+				AD911B81197DA55C00943866 /* Supporting Files */,
+			);
+			path = PXPFontLabelDemo;
+			sourceTree = "<group>";
+		};
+		AD911B81197DA55C00943866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B82197DA55C00943866 /* PXPFontLabelDemo-Info.plist */,
+				AD911B83197DA55C00943866 /* InfoPlist.strings */,
+				AD911B86197DA55C00943866 /* main.m */,
+				AD911B88197DA55C00943866 /* PXPFontLabelDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD911B99197DA55C00943866 /* PXPFontLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B9F197DA55C00943866 /* PXPFontLabelDemoTests.m */,
+				AD911B9A197DA55C00943866 /* Supporting Files */,
+			);
+			path = PXPFontLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		AD911B9A197DA55C00943866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD911B9B197DA55C00943866 /* PXPFontLabelDemoTests-Info.plist */,
+				AD911B9C197DA55C00943866 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD911B76197DA55C00943866 /* PXPFontLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD911BA3197DA55C00943866 /* Build configuration list for PBXNativeTarget "PXPFontLabelDemo" */;
+			buildPhases = (
+				AD911B73197DA55C00943866 /* Sources */,
+				AD911B74197DA55C00943866 /* Frameworks */,
+				AD911B75197DA55C00943866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXPFontLabelDemo;
+			productName = PXPFontLabelDemo;
+			productReference = AD911B77197DA55C00943866 /* PXPFontLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD911B91197DA55C00943866 /* PXPFontLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD911BA6197DA55C00943866 /* Build configuration list for PBXNativeTarget "PXPFontLabelDemoTests" */;
+			buildPhases = (
+				AD911B8E197DA55C00943866 /* Sources */,
+				AD911B8F197DA55C00943866 /* Frameworks */,
+				AD911B90197DA55C00943866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD911B98197DA55C00943866 /* PBXTargetDependency */,
+			);
+			name = PXPFontLabelDemoTests;
+			productName = PXPFontLabelDemoTests;
+			productReference = AD911B92197DA55C00943866 /* PXPFontLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD911B6F197DA55C00943866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PXP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PXPGraphics;
+				TargetAttributes = {
+					AD911B91197DA55C00943866 = {
+						TestTargetID = AD911B76197DA55C00943866;
+					};
+				};
+			};
+			buildConfigurationList = AD911B72197DA55C00943866 /* Build configuration list for PBXProject "PXPFontLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD911B6E197DA55C00943866;
+			productRefGroup = AD911B78197DA55C00943866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD911B76197DA55C00943866 /* PXPFontLabelDemo */,
+				AD911B91197DA55C00943866 /* PXPFontLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD911B75197DA55C00943866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911B85197DA55C00943866 /* InfoPlist.strings in Resources */,
+				AD911B8D197DA55C00943866 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD911B90197DA55C00943866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911B9E197DA55C00943866 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD911B73197DA55C00943866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911B87197DA55C00943866 /* main.m in Sources */,
+				AD911B8B197DA55C00943866 /* PXPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD911B8E197DA55C00943866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD911BA0197DA55C00943866 /* PXPFontLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD911B98197DA55C00943866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD911B76197DA55C00943866 /* PXPFontLabelDemo */;
+			targetProxy = AD911B97197DA55C00943866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD911B83197DA55C00943866 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD911B84197DA55C00943866 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD911B9C197DA55C00943866 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD911B9D197DA55C00943866 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD911BA1197DA55C00943866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD911BA2197DA55C00943866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD911BA4197DA55C00943866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "PXPFontLabelDemo/PXPFontLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD911BA5197DA55C00943866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "PXPFontLabelDemo/PXPFontLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD911BA7197DA55C00943866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXPFontLabelDemo.app/PXPFontLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PXPFontLabelDemoTests/PXPFontLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD911BA8197DA55C00943866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXPFontLabelDemo.app/PXPFontLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "PXPFontLabelDemoTests/PXPFontLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD911B72197DA55C00943866 /* Build configuration list for PBXProject "PXPFontLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD911BA1197DA55C00943866 /* Debug */,
+				AD911BA2197DA55C00943866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD911BA3197DA55C00943866 /* Build configuration list for PBXNativeTarget "PXPFontLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD911BA4197DA55C00943866 /* Debug */,
+				AD911BA5197DA55C00943866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD911BA6197DA55C00943866 /* Build configuration list for PBXNativeTarget "PXPFontLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD911BA7197DA55C00943866 /* Debug */,
+				AD911BA8197DA55C00943866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD911B6F197DA55C00943866 /* Project object */;
+}
