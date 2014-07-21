@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD64F5F6197DCAC00089D5F6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD64F5F5197DCAC00089D5F6 /* CoreText.framework */; };
+		AD64F5F9197DCCE80089D5F6 /* PXPFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD64F5F8197DCCE80089D5F6 /* PXPFontManager.m */; };
+		AD64F5FC197DCE600089D5F6 /* PXPFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD64F5FB197DCE600089D5F6 /* PXPFontLabel.m */; };
 		AD911B7B197DA55C00943866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7A197DA55C00943866 /* Foundation.framework */; };
 		AD911B7D197DA55C00943866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7C197DA55C00943866 /* CoreGraphics.framework */; };
 		AD911B7F197DA55C00943866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7E197DA55C00943866 /* UIKit.framework */; };
@@ -19,6 +22,9 @@
 		AD911B96197DA55C00943866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD911B7E197DA55C00943866 /* UIKit.framework */; };
 		AD911B9E197DA55C00943866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD911B9C197DA55C00943866 /* InfoPlist.strings */; };
 		AD911BA0197DA55C00943866 /* PXPFontLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911B9F197DA55C00943866 /* PXPFontLabelDemoTests.m */; };
+		AD911BAC197DA85200943866 /* PXPFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911BAB197DA85200943866 /* PXPFont.m */; };
+		AD911BAF197DAD5300943866 /* PXPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AD911BAE197DAD5300943866 /* PXPAttributedString.m */; };
+		ADE35880197DC44E0086D8F6 /* PXPFontLabelStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE3587F197DC44E0086D8F6 /* PXPFontLabelStringDrawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD64F5F5197DCAC00089D5F6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AD64F5F7197DCCE80089D5F6 /* PXPFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPFontManager.h; path = PXPFontLabel/PXPFontManager.h; sourceTree = SOURCE_ROOT; };
+		AD64F5F8197DCCE80089D5F6 /* PXPFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXPFontManager.m; path = PXPFontLabel/PXPFontManager.m; sourceTree = SOURCE_ROOT; };
+		AD64F5FA197DCE600089D5F6 /* PXPFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPFontLabel.h; path = PXPFontLabel/PXPFontLabel.h; sourceTree = SOURCE_ROOT; };
+		AD64F5FB197DCE600089D5F6 /* PXPFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXPFontLabel.m; path = PXPFontLabel/PXPFontLabel.m; sourceTree = SOURCE_ROOT; };
 		AD911B77197DA55C00943866 /* PXPFontLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXPFontLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD911B7A197DA55C00943866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD911B7C197DA55C00943866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +59,14 @@
 		AD911B9B197DA55C00943866 /* PXPFontLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPFontLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AD911B9D197DA55C00943866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD911B9F197DA55C00943866 /* PXPFontLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXPFontLabelDemoTests.m; sourceTree = "<group>"; };
+		AD911BAA197DA85200943866 /* PXPFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPFont.h; path = PXPFontLabel/PXPFont.h; sourceTree = SOURCE_ROOT; };
+		AD911BAB197DA85200943866 /* PXPFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXPFont.m; path = PXPFontLabel/PXPFont.m; sourceTree = SOURCE_ROOT; };
+		AD911BAD197DAD5300943866 /* PXPAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPAttributedString.h; path = PXPFontLabel/PXPAttributedString.h; sourceTree = SOURCE_ROOT; };
+		AD911BAE197DAD5300943866 /* PXPAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXPAttributedString.m; path = PXPFontLabel/PXPAttributedString.m; sourceTree = SOURCE_ROOT; };
+		AD911BB0197DB21B00943866 /* PXPAttributedStringPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPAttributedStringPrivate.h; path = PXPFontLabel/PXPAttributedStringPrivate.h; sourceTree = SOURCE_ROOT; };
+		AD911BB3197DBF9D00943866 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		ADE3587E197DC44E0086D8F6 /* PXPFontLabelStringDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXPFontLabelStringDrawing.h; path = PXPFontLabel/PXPFontLabelStringDrawing.h; sourceTree = SOURCE_ROOT; };
+		ADE3587F197DC44E0086D8F6 /* PXPFontLabelStringDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXPFontLabelStringDrawing.m; path = PXPFontLabel/PXPFontLabelStringDrawing.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD64F5F6197DCAC00089D5F6 /* CoreText.framework in Frameworks */,
 				AD911B7D197DA55C00943866 /* CoreGraphics.framework in Frameworks */,
 				AD911B7F197DA55C00943866 /* UIKit.framework in Frameworks */,
 				AD911B7B197DA55C00943866 /* Foundation.framework in Frameworks */,
@@ -96,6 +116,8 @@
 		AD911B79197DA55C00943866 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD64F5F5197DCAC00089D5F6 /* CoreText.framework */,
+				AD911BB3197DBF9D00943866 /* CoreFoundation.framework */,
 				AD911B7A197DA55C00943866 /* Foundation.framework */,
 				AD911B7C197DA55C00943866 /* CoreGraphics.framework */,
 				AD911B7E197DA55C00943866 /* UIKit.framework */,
@@ -109,8 +131,9 @@
 			children = (
 				AD911B89197DA55C00943866 /* PXPAppDelegate.h */,
 				AD911B8A197DA55C00943866 /* PXPAppDelegate.m */,
-				AD911B8C197DA55C00943866 /* Images.xcassets */,
+				AD911BA9197DA83200943866 /* PXPFontLabel */,
 				AD911B81197DA55C00943866 /* Supporting Files */,
+				AD911B8C197DA55C00943866 /* Images.xcassets */,
 			);
 			path = PXPFontLabelDemo;
 			sourceTree = "<group>";
@@ -142,6 +165,24 @@
 				AD911B9C197DA55C00943866 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD911BA9197DA83200943866 /* PXPFontLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AD911BAD197DAD5300943866 /* PXPAttributedString.h */,
+				AD911BAE197DAD5300943866 /* PXPAttributedString.m */,
+				AD911BB0197DB21B00943866 /* PXPAttributedStringPrivate.h */,
+				AD911BAA197DA85200943866 /* PXPFont.h */,
+				AD911BAB197DA85200943866 /* PXPFont.m */,
+				ADE3587E197DC44E0086D8F6 /* PXPFontLabelStringDrawing.h */,
+				ADE3587F197DC44E0086D8F6 /* PXPFontLabelStringDrawing.m */,
+				AD64F5F7197DCCE80089D5F6 /* PXPFontManager.h */,
+				AD64F5F8197DCCE80089D5F6 /* PXPFontManager.m */,
+				AD64F5FA197DCE600089D5F6 /* PXPFontLabel.h */,
+				AD64F5FB197DCE600089D5F6 /* PXPFontLabel.m */,
+			);
+			name = PXPFontLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD911B87197DA55C00943866 /* main.m in Sources */,
+				AD64F5F9197DCCE80089D5F6 /* PXPFontManager.m in Sources */,
 				AD911B8B197DA55C00943866 /* PXPAppDelegate.m in Sources */,
+				AD911BAC197DA85200943866 /* PXPFont.m in Sources */,
+				ADE35880197DC44E0086D8F6 /* PXPFontLabelStringDrawing.m in Sources */,
+				AD64F5FC197DCE600089D5F6 /* PXPFontLabel.m in Sources */,
+				AD911BAF197DAD5300943866 /* PXPAttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +362,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -349,21 +396,26 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		AD911BA4197DA55C00943866 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
 				INFOPLIST_FILE = "PXPFontLabelDemo/PXPFontLabelDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,12 +423,15 @@
 		AD911BA5197DA55C00943866 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXPFontLabelDemo/PXPFontLabelDemo-Prefix.pch";
 				INFOPLIST_FILE = "PXPFontLabelDemo/PXPFontLabelDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,6 +495,7 @@
 				AD911BA5197DA55C00943866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD911BA6197DA55C00943866 /* Build configuration list for PBXNativeTarget "PXPFontLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +504,7 @@
 				AD911BA8197DA55C00943866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
